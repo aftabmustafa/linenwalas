@@ -10,6 +10,17 @@ form {
   letter-spacing: 2px;
 }
 
+.customReactSelect {
+  margin-top: 32px;
+}
+
+.customReactSelect > div {
+  border: none;
+  border-bottom: 1px solid #7f7f7f;
+  border-radius: 0;
+  color: #7f7f7f;
+}
+
 select {
   border: none;
   border-bottom: 1px solid #7f7f7f;
@@ -22,7 +33,6 @@ select {
   letter-spacing: 2px;
   color: #7f7f7f;
   padding: 6px;
-  height: 32px;
 }
 
 button {
